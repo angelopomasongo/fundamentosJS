@@ -86,7 +86,10 @@ console.log(`su casa es la ${numeroCasaTexto} es de tipo ${typeof numeroCasaText
 // Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 // Muestre todo en MAYÚSCULAS
 
-
+let nombre2 = "Diego"
+let apellido="Rojas"
+let nombre_completo = "Diego Rojas"
+console.log(`su nombre es ${nombre_completo.toUpperCase()} y tiene una cantidad de ${nombre_completo.length} caracteres`)
 
 
 // 8️⃣ Verificación de contenido
@@ -97,6 +100,12 @@ console.log(`su casa es la ${numeroCasaTexto} es de tipo ${typeof numeroCasaText
 // La frase en MAYÚSCULAS
 // La cantidad de caracteres
 
+let frase1 = "hoy aprendemos strings"
+console.log(`${frase1.toUpperCase()} tiene ${frase1.length} caracteres`)
+console.log(frase1.includes("string"))
+
+
+
 // 9️⃣ Comparación de formatos
 // Crea la variable:
 // texto: Programar es divertido
@@ -105,6 +114,9 @@ console.log(`su casa es la ${numeroCasaTexto} es de tipo ${typeof numeroCasaText
 // El texto en minúsculas
 // El texto en mayúsculas
 // La cantidad de caracteres
+
+let texto2 = "Programar es divertido"
+console.log(texto2, `,${texto2.toUpperCase()}, ${texto2.toUpperCase()} y tiene ${texto2.length} caracteres`)
 
 // 🔟 Desafío completo integrado
 // Crea las variables:
@@ -115,3 +127,9 @@ console.log(`su casa es la ${numeroCasaTexto} es de tipo ${typeof numeroCasaText
 // Convierta el año a texto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
+
+let curso ="4c"
+let año ="2026"
+let año_texto = String(año)
+let mensaje_completo = "el cuso 4c del año 2026 y los caracteres de año son de "
+console.log(`${mensaje_completo.toUpperCase()}${año_texto.length}`)
